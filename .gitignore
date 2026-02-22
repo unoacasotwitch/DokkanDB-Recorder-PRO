@@ -1,0 +1,21 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+
+# --- Project Specific ---
+# Esclude i file WebP generati durante i test locali per non intasare il repository
+*.webp
+
+# Esclude eventuali log di Playwright o tracce browser
+test-results/
+pw-browser/
